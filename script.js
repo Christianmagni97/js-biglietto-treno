@@ -7,7 +7,20 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 const userNumbersKm = prompt('Type How many kilometers do you want to travel?' );
 const userAge = prompt('What s your age?' );
-console. log(userNumbersKm, userAge);
+console. log(userNumbersKm);
+console. log(userAge);
 const price = 0.276;
-const ticket = (0.276 * userNumbersKm);
+let ticket = (0.276 * userNumbersKm);
 console. log(ticket);
+if ( userAge < 18){
+    const saleUnderage = ( ticket /100 )* 21
+    const priceSaleOne = ticket - saleUnderage
+    console. log(priceSaleOne)
+}
+if ( userAge > 65){
+    const saleOver = ( ticket /100 )* 42
+    const priceSaleTwo = ticket - saleOver
+    console. log(priceSaleTwo)
+}
+
+
