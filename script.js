@@ -10,4 +10,4 @@ const userAge = prompt('What s your age?' );
 console. log(userNumbersKm, userAge);
 const price = 0.276;
 const ticket = (0.276 * userNumbersKm);
-
+console. log(ticket);
