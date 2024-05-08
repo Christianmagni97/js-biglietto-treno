@@ -8,3 +8,6 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 const userNumbersKm = prompt('Type How many kilometers do you want to travel?' );
 const userAge = prompt('What s your age?' );
 console. log(userNumbersKm, userAge);
+const price = 0.276;
+const ticket = (0.276 * userNumbersKm);
+
